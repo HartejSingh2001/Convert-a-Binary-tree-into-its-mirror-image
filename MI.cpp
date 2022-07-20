@@ -11,5 +11,4 @@ void mirror(struct Node* node) {
        temp->left=temp->right;
        temp->right=t;
     }
-    return node;
 }
